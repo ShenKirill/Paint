@@ -1,4 +1,4 @@
-const socketClient = new WebSocket("ws://localhost:3000/");
+const socketClient = new WebSocket(window.location.origin.replace(/^http/, 'ws'));
 
 const colorPicker = document.getElementById("color-picker");
 
