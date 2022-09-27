@@ -26,8 +26,9 @@ function Main({canvas}) {
   return (
     <Layout>
       <div className="container">
+        <h1 className="names">Kirill_SH, present -  "WebSocket miniGame"</h1>
         <div className="header">
-          <h1>Paint</h1>
+          <h2>choose your favorite color</h2>{" "}
           <input type="color" id="color-picker" defaultValue={color} />
         </div>
         <div className="canvas">
