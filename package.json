@@ -1,0 +1,26 @@
+{
+  "name": "paint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js -e js,jsx",
+    "test": "echo \"Error: no test specifed\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/register": "^7.18.9",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vs": "^0.1.0",
+    "ws": "^8.9.0"
+  }
+}
