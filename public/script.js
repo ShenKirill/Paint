@@ -12,7 +12,7 @@ socketClient.addEventListener("message", (event) => {
 });
 
 document.querySelectorAll(".cell").forEach((button) => {
-  button.addEventListener("click", () => {
+  button.addEventListener("mousemove", () => {
     const color = colorPicker.value;
     button.style.backgroundColor = color;
 
